@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: rebeccapurple;
+}
+body{
+    height: 100vh;
+    font-size: 18px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    margin: 20px 0px;
+    padding: 20px 30px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px var(--primary-color);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+li{
+    display: flex;
+    gap: 10px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+li>img{
+    height: 24px;
+    background-color: white;
+   max-blend-mode: muiltiply;
+}
+/* header ends */
+/* banner start */
+main{
+    max-width: 1280px;
+    margin: auto;
+}
+section{
+    padding: 50px 0px;
+}
+#banner{
+   display: flex; 
+}
+.social-icon img{
+    height: 30px;
+}
+/* banner ends */

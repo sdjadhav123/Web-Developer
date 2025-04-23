@@ -1,0 +1,33 @@
+@import url('./Loverine.otf');
+@import url();
+@font-face{
+   src: url('./Loverine.otf');
+   font-family: Loverine,cursive;
+}
+
+
+body{
+   /* background-color: green; */
+   background-image: linear-gradient(to left,to right,to top,to bottom, red,green,rgb(95,95,243),blue,yellow,purple,pink,);
+   height:100vh;
+   background-color: rgb(255, 0, 89);
+   /*background-image: radial-gradient(orange,green,orange,green,orange,green);*/
+  /* background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn3.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQYXQFyOeCBWTkjwa17g4Lwv0jz1tiTicbKAH5rgPrx2Bm25WTv&psig=AOvVaw2PMrJP9OAkSWjUE2yqSd3n&ust=1740451555747000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPiazKel24sDFQAAAAAdAAAAABAE');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top center;
+   background-blend-mode: darken;
+   background-attachment: fixed;
+
+}*/
+ height: 100vh;
+ background-color: rgb(120, 112, 52);
+ font-family: Loverine,cursive;
+h1{
+    font-size: 144px;
+    letter-spacing: 50px;
+    text-align: 50px;
+    background-image:
+    url('https://t4.ftcdn.net/jpg/04/95/73/99/240_F_495739993_IJD80fF1POOd7KTyFT4LH7rDzgIpZluo.jpg');
+    background-repeat: no-repeat;
+}

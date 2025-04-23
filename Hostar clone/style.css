@@ -1,0 +1,41 @@
+@import url('./Loverine.otf');
+element.style {
+    height: 100%;
+}
+user agent stylesheet
+:root {
+    view-transition-name: root;
+}
+user agent stylesheet
+html {
+    display: block;
+}
+
+.navbar {
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Arial, sans-serif';
+
+}
+
+
+/*element.style {
+display: block;
+    -webkit-user-select: none;
+    margin: auto;
+    cursor: zoom-in;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+}
+img[Attributes Style] {
+    width: 874px;
+    aspect-ratio: auto 874 / 459;
+    height: 459px;
+    aspect-ratio: auto 874 / 459;
+}
+user agent stylesheet
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}*/
+

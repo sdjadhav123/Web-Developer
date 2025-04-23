@@ -1,0 +1,8 @@
+forms are used to collect inputs into webpage from users.
+eg:- sugnin, signup, feedback, suggestion,application, contact, appraisal from etc..,
+
+  The complete from uses 'form' tag. it contains attribute like action.
+   Action: contains path to where input details will be submitted
+    
+Inputs will be collected using 'input' tag. it is a self closing tag. It contains attributes like
+  1 type: used to define type of input

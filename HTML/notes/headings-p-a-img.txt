@@ -1,0 +1,30 @@
+In HTML,Every element will have corressponding open and close tags.Each and every element will have its own purpose
+Headings:
+   HTML provide 6 heading ranging from h1 to h6
+   h1 is pf higher importance and h6 is having lower
+   importance.
+   It is recomnded to keep one h1 per page for better SEO 
+   eg: <h1>text whatever you do want</h1>,<h2>text</h2>.....
+   all headings are bold and differed by size.
+     Paragraphs are used for description.usually,they are not bold.it uses 'p' tag
+      eg:<p> paragtaph text </p>
+
+Emmets: Emmets are the shortcut provided by Vscode 
+ eg: lorem emmet will give dummy paragraph and '+' emmet is
+    used for multiple elements to print one after another 
+
+HYPERLINKS: 
+          Hyperlink helps to navigate from one page to another web page.They use 'a' tag
+          eg: <a> text </a>
+          But another tags uses links as 'href' attribute
+          eg: <a href="some link.if you want to any link"> text</a>
+          To open link in new tab, we can use target attributes with value '_blank'
+            eg: <a href="link" target="_blank">text</a>
+
+Image:  
+     image are used for visual apperance of website 
+     we can include images using 'img' tag.
+     img tag contain two attributes
+     1]src: src contain source of images   
+     2]alt: alt will contain alternate text which appears
+     when image is not loading       

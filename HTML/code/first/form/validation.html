@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--registration-->
+    <form action="main.py">
+        <p>All* fields are mandatory</p>
+
+      <input type="text" placeholder="Enter name">
+      <select name="" id="" disable>
+        <option value="">Mr</option>
+      </select>
+      <label for="">Name*:</label>
+      <input type="text" placeholder="Enter name" value="Shekar" name="fn" required maxlength="6" readonly><br><br>
+      <input type="text" placeholder="Enter name" name="fn" required maxlength="10" readonly>
+      <br><br>
+      <label for="">Email*:</label>
+      <input type="email" placeholder="Enter emial" name="em" required><br><br>
+      <leble for="">password*:</leble>
+      <input type="password" placeholder="Enter password" name="pwd"  minilength="6"><br><br>
+        <label for="">Age:*</label>
+        <input type="number" placeholder="Enter your age" required nin="18" max="55"><br><br>
+        <label for="">MobileNo*:</label>
+        <input type="text" placeholder="Enter mob no:" pattern="^[0-9]{10}$">
+          <button type="submit">submit</button>
+      </form>
+      </body>
+      </html>
