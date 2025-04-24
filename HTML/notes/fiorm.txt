@@ -8,3 +8,5 @@ Inputs will be collected using 'input' tag. it is a self closing tag. It contain
   1 type: used to define type of input
 
   every changes you need to repeat steps 3, 4 and 6
+
+  In the real world competitoin muvh more compition but there is one solution . If a success human they have consistency and any time they think like positive.
