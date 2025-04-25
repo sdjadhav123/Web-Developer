@@ -1,4 +1,4 @@
-.{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -37,10 +37,10 @@ img{
 .grid-wrapper .tall{
     grid-row: span 2;
 }
-.grid-wrapper .big{
+.grid-wrapper .big {
     grid-column: span 2;
     grid-row: span 2;
 }
-.img 1{
+.img 1 {
     grid-column: span 4;
 }
