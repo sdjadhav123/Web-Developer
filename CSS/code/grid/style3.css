@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Monomakh&family=Poppins:wght@200;400;500;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Condensed+One&display=swap');
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 2px;
+    padding: 2px;
    
     box-sizing: content-box;
 }
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bolder;
+    
     font-size: medium;
     font-display: block;
-    font-style: initial;
+    height: 100%;
+    width: 100%;
+  /*  background-color: rgb(109, 88, 84);*/
+   
 }
 
 .container {
@@ -20,50 +23,58 @@ body {
    min-width: 100;
    display: flex;
    justify-content: center;
-   align-items: self-start;
+   align-items: center;
    gap: 20px;
    grid-column: span;
    grid-row: span;
-   background: -webkit-linear-gradient(to left, #c4584e, #00db42);
+   background:linear-gradient(to left, #8c358f, #bc5959);
+   background-color: bisque;
 }
 
-.right-text {
+.left-text {
     flex-basis: 30%;
     forced-color-adjust: purple;
 }
 
 .heading {
-    font-size: x-large;
+   
     align-items: center;
-    color: coral;
+    color: green;
     text-align: center;
 }
 
-.subheading {
-    font-family: cursive;
+.h3{
     align-items: center;
-    color: color-mix(in srgb, color percentage, color percentage);
-    font-size: medium;
-    font-style: italic;
+    color: rgba(143, 73, 73, 0.13);
+    text-align: center;
+}
+.subheading {
+
+        color: rgb(red, rgb(70, 152, 70), blue);
+        margin-top: 10px;
+        text-align: center;
+        display: block;
+        color: white;
 }
 
 .gallry {
     flex-basis: 50%; 
     display: grid;
-    gap: 8px;
+    gap: 5px;
     grid-template-columns: repeat(3,1fr);
     grid-auto-rows: 120px;
+    border-radius: 2%;
+   
 }
  
 .box{
     background-size: cover;
-   background-position: top;
+   background-position: bottom;
    color: white;
    display: flex;
    justify-content: center;
    align-items: center;
   background-color: #222;
-  background-blend-mode: hard-light;
   transition: all is ease-in-out;
   cursor: pointer;
 }
@@ -76,7 +87,72 @@ body {
 
 .row-2{
     grid-row: span 2;
+    cursor: pointer;
+ }
+
+ .row-2:hover{
+    background-color: coral;
+    background-position: center;
+    box-shadow: 0 0 4px #fff;
  }
  .col{
     grid-column: span 2;
  }
+
+ /*.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(to right, #841308, #0b3317);
+}
+
+.left-text{
+    flex-basis: 30%;
+}
+
+.heading {
+   font-size: 3rem;
+   color: white;
+    text-align: center;
+}
+
+.subheading {
+    color: #ddd;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.gallery{
+    flex-basis: 50%; 
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 120px;
+
+}
+.box{
+   background-size: cover;
+   background-position: top;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  background-color: #222;
+  background-blend-mode: hard-light;
+ /* transition: all is ease-in-out;*/
+  cursor: pointer;
+}
+
+ .box:hover{
+    background-color: #999;
+    background-position: center;
+    box-shadow: 0 0 4px #fff;
+ }
+ .row-2{
+    grid-row: span 2;
+ }
+ .col{
+    grid-column: span 2;
+ }*/

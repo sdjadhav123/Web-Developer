@@ -14,3 +14,5 @@ Inputs will be collected using 'input' tag. it is a self closing tag. It contain
   We have much more practices for anything learn. If you learn consistently then no any other to win you.
 
   In the today's world AI is the powerful feature in technology.
+
+  These is the today comment.
